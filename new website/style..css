@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin:10px 100px
+}
+/* Navbar */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 20px  0px;
+}
+.menu{
+    display: none;
+}
+.logo h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+.logo h2 span{
+    color:#eaa706;
+    text-decoration: underline;
+}
+ .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+ }
+ .navbar ul li{
+    list-style: none;
+ }
+ /* SHOWCASE */
+ .landing {
+    width: 60px;
+ }
+
+.wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+    height: 40vh;
+}
+.chair img{
+    width: 300px;
+}
+.text-content h1{
+    font-weight: 600;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 18px;
+}
+.text-content p{
+    margin-bottom: 15px;
+}
+.text-content .price {
+    font-size: 16px;
+    color: #000;
+    margin-top: 25px; 
+}
+.text-content .price span {
+    color:#eaa706;  
+}
+.btn{
+    padding: 14px  32px;
+    border: 1px solid #000 ;
+    background: transparent;
+    font-size: 10px;
+    border-radius: 30px;
+}
+/* text paragraph */
+.text-paragraph p{
+    text-align: center;
+    margin: 80px  100px;
+    font-size: 16px;
+    font-style: italic;
+    color: gray;
+    line-height: 2;
+}
+/* service */ 
+.service{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+ .service-components h3{
+    margin: 8px 0; 
+ }
+ .border-b{
+    border-bottom: 2.5px solid #eaa706;
+    margin-bottom: 18px;
+ }
+/* products */
+.newest {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 500;
+    font-size: 20px; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+.second {
+    margin: 10px auto;
+}
+
+
+
